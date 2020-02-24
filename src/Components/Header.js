@@ -4,6 +4,8 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div></div>
+    <div classname="header">
+        Galo
+    </div>
   );
 }
