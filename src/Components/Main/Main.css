@@ -6,23 +6,3 @@
                          "g i"
                          "f f";
 }
-
-.main-container Header{
-    grid-area: h;
-    background-color: aqua;
-}
-
-.main-container Game{
-    grid-area: g;
-    background-color: yellow;
-}
-
-.main-container Info{
-    grid-area: i;
-    background-color: red;
-}
-
-.main-container Footer{
-    grid-area: f;
-    background-color: green;
-}

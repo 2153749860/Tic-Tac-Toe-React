@@ -1,0 +1,13 @@
+.game-container{
+    grid-area: g;
+    background-color: yellow;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.game-container table, td{
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,4 @@
+.footer-container{
+    grid-area: f;
+    background-color: green;
+}

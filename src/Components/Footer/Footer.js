@@ -1,10 +1,10 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import './Footer.css';
 
 export default function Footer() {
   return (
-    <div>
+    <div className="footer-container">
         Footer
     </div>
   );

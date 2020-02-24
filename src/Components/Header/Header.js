@@ -1,10 +1,10 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import './Header.css';
 
 export default function Header() {
   return (
-    <div classname="header">
+    <div className="header-container">
         Galo
     </div>
   );

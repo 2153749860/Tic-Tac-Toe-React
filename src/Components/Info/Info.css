@@ -1,0 +1,6 @@
+.info-container{
+    grid-area: i;
+    background-color: red;
+    padding-left: 5%;
+    padding-top: 5%;
+}
