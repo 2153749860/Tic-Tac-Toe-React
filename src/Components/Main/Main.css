@@ -1,0 +1,28 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "h h"
+                         "g i"
+                         "f f";
+}
+
+.main-container Header{
+    grid-area: h;
+    background-color: aqua;
+}
+
+.main-container Game{
+    grid-area: g;
+    background-color: yellow;
+}
+
+.main-container Info{
+    grid-area: i;
+    background-color: red;
+}
+
+.main-container Footer{
+    grid-area: f;
+    background-color: green;
+}
