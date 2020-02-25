@@ -1,5 +1,5 @@
 import React from 'react';
-import Cell from './Cell';
+import Cell from '../Cell/Cell';
 
 // import { Container } from './styles';
 
@@ -8,6 +8,12 @@ export default function Table(props) {
 
   return (
     <div>
+        <Cell player={props.player}/>
+        <Cell player={props.player}/>
+        <Cell player={props.player}/>
+        <Cell player={props.player}/>
+        <Cell player={props.player}/>
+        <Cell player={props.player}/>
         <Cell player={props.player}/>
         <Cell player={props.player}/>
         <Cell player={props.player}/>

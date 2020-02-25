@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './Game.css';
 
-import Table from './Table';
+import Table from './Table/Table';
 
 export default function Game() {
   const player = 0;
