@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-// import { Container } from './styles';
+
+import './Cell.css';
 
 export default function Cell(props) {
   const [marker, setMarker] = useState("-");  
@@ -13,6 +14,6 @@ export default function Cell(props) {
   }
 
   return (
-  <div onClick={play}>{ marker }</div>
+  <div className="cell-container" onClick={play}>{ marker }</div>
   );
 }
