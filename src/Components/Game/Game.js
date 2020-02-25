@@ -5,29 +5,21 @@ import './Game.css';
 import Table from './Table/Table';
 
 export default function Game() {
-  const player = 0;
+  const [player, setPlayer] = useState(0);
+
+  function changePlayer(){
+    if(player === 0){
+      setPlayer(1)
+    } else {
+      setPlayer(0);
+    }
+  }
 
   return (
     <div className="game-container">
         <Table player={player}/>
+        <button onClick={changePlayer}>Change Player</button>
+  <p>Player: {player}</p>
     </div>
   );
 }
-
-/*
-<tr>
-                <td onClick={movePlayer}>{move[0]}</td>
-                <td onClick={movePlayer}>{move[1]}</td>
-                <td onClick={movePlayer}>{move[2]}</td>
-            </tr>
-            <tr>
-                <td onClick={movePlayer}>{move[3]}</td>
-                <td onClick={movePlayer}>{move[4]}</td>
-                <td onClick={movePlayer}>{move[5]}</td>
-            </tr>
-            <tr>
-                <td onClick={movePlayer}>{move[6]}</td>
-                <td onClick={movePlayer}>{move[7]}</td>
-                <td onClick={movePlayer}>{move[8]}</td>
-            </tr>
-*/
