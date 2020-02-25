@@ -5,7 +5,7 @@ import './Game.css';
 import Table from './Table';
 
 export default function Game() {
-  const player = 1;
+  const player = 0;
 
   return (
     <div className="game-container">
