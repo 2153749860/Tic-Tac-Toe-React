@@ -19,7 +19,7 @@ export default function Game() {
     <div className="game-container">
         <Table player={player}/>
         <button onClick={changePlayer}>Change Player</button>
-  <p>Player: {player}</p>
+        <p>Player: {player}</p>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import Cell from '../Cell/Cell';
 import './Table.css';
 
 export default function Table(props) {
-  //const player = props;
 
   return (
     <div className="table-container">
