@@ -1,0 +1,14 @@
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.third-row{
+    display: flex;
+    flex-direction: row;
+}
