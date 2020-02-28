@@ -1,12 +1,7 @@
-import React from 'react';
-import Routes from './routes';
-
+import React from "react";
+import Main from "./Components/Main/Main";
 function App() {
-  return (
-    <div className="App">
-      <Routes/>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
