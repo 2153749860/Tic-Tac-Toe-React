@@ -11,6 +11,15 @@ export default function Footer() {
           alt="wikipedia"
         />
       </a>
+      <a
+        href="https://github.com/2153749860/Tic-Tac-Toe-React"
+        className="icon"
+      >
+        <img
+          src="https://img.icons8.com/ios-filled/50/000000/github-2.png"
+          alt="github"
+        />
+      </a>
     </footer>
   );
 }
