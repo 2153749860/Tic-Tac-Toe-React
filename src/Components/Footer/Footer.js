@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './Footer.css';
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer-container">
-        Footer
-    </div>
+    <footer className="footer-container">
+      <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" className="icon">
+        <img
+          src="https://img.icons8.com/windows/32/000000/wikipedia.png"
+          alt="wikipedia"
+        />
+      </a>
+    </footer>
   );
 }
