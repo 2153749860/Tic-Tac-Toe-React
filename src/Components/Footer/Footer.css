@@ -1,4 +1,21 @@
-.footer-container{
-    grid-area: f;
-    background-color: green;
+.footer-container {
+  grid-area: f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #537d8d;
+}
+
+.icon {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icon img {
+  height: 50px;
+  width: 50px;
+  background-color: #d9e76c;
+  padding: 10px;
+  border-radius: 50px;
 }
