@@ -20,3 +20,19 @@
       "f ";
   }
 }
+
+:root {
+  --color-header: #ac3931;
+  --color-footer: #537d8d;
+  --color-game: #e5d352;
+  --color-info: #d9e76c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-header: #121212;
+    --color-footer: #121212;
+    --color-game: #142b44;
+    --color-info: #343a40;
+  }
+}

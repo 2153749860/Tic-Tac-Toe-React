@@ -1,6 +1,6 @@
 .header-container {
   grid-area: h;
-  background-color: #ac3931;
+  background-color: var(--color-header);
   display: flex;
   flex-direction: row;
   align-items: center;

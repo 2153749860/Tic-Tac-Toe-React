@@ -1,6 +1,6 @@
 .game-container {
   grid-area: g;
-  background-color: #e5d352;
+  background-color: var(--color-game);
 
   display: flex;
   flex-direction: column;
