@@ -4,3 +4,15 @@
   padding-left: 5%;
   padding-top: 5%;
 }
+
+.info-container .card {
+  background-color: var(--color-header);
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: aliceblue;
+}
