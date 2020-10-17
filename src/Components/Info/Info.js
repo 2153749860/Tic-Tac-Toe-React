@@ -5,8 +5,16 @@ import './Info.css';
 export default function Info({ player1, player2, win1, win2 }) {
   return (
     <div className="info-container">
-        <p>{player1}  {win1}</p>
-        <p>{player2}  {win2}</p>
+      <div className="card">
+      <p>Name: {player1}  </p>
+      <p>Score: {win1}</p>
+      </div>
+      <div className="card">
+        <p>Name:{player2} </p>
+      <p>Score: {win2}</p>
+
+      </div>
+        
     </div>
   );
 }
