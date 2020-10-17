@@ -1,8 +1,22 @@
 .main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  grid-template-areas:
+    "h h"
+    "g i"
+    "f f";
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 70vh 10vh;
-    grid-template-areas: "h h"
-                         "g i"
-                         "f f";
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 55vh 15vh 10vh;
+    grid-template-areas:
+      "h "
+      "g "
+      "i "
+      "f ";
+  }
 }
