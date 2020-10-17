@@ -1,6 +1,6 @@
 .info-container {
   grid-area: i;
-  background-color: #d9e76c;
+  background-color: var(--color-info);
   padding-left: 5%;
   padding-top: 5%;
 }
