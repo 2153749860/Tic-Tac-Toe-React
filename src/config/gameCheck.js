@@ -18,5 +18,9 @@ export const gameCheck = (game, player) => {
     }
   });
 
+  if (!game.includes("") && winner === null) {
+    return "draw";
+  }
+
   return winner;
 };

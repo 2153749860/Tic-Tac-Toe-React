@@ -28,7 +28,9 @@ export default function Game({ updateScore }) {
     const result = gameCheck(tmp, player);
 
     if (result !== null && result !== undefined) {
-      updateScore && updateScore(player);
+      if (result !== "draw") {
+        updateScore && updateScore(player);
+      }
       setEndGame(true);
       setTimeout(() => {
         resetGame();
