@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import { Col, Row } from "antd";
 
@@ -16,7 +16,6 @@ export default function Game({ updateScore }) {
   const [endGame, setEndGame] = useState(false);
 
   const resetGame = () => {
-    console.log("RESET");
     setGameBoard([...new Array(9).fill("")]);
   };
 
@@ -28,14 +27,10 @@ export default function Game({ updateScore }) {
 
     const result = gameCheck(tmp, player);
 
-    console.log("RESULT", result);
-
     if (result !== null && result !== undefined) {
-      console.log("AQUI");
       updateScore && updateScore(player);
       setEndGame(true);
       setTimeout(() => {
-        alert("SOMETHING");
         resetGame();
         setEndGame(false);
       }, 1000);

@@ -1,12 +1,10 @@
 .header-container {
-  grid-area: h;
   background-color: var(--color-header);
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-
   font-size: 250%;
+  min-height: 20vh;
 }
 
 header {

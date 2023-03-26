@@ -1,10 +1,10 @@
 .footer-container {
-  grid-area: f;
   display: flex;
   justify-content: center;
   align-items: center;
 
   background-color: var(--color-footer);
+  min-height: 10vh;
 }
 
 .icon {
