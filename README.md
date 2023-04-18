@@ -1,4 +1,10 @@
-# Website
+# Tic Tac Toe
+
+## Introduction
+
+This project was created to learn how to use React and it's features but also to have some fun :D
+
+## Website
 
 https://tiagor15.github.io/Tic-Tac-Toe-React/
 
