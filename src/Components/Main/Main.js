@@ -30,8 +30,8 @@ export default function Main() {
           </Col>
           <Col xs={24} sm={24} md={9} lg={6}>
             <Info
-              player1="player1"
-              player2="player2"
+              player1="Player X"
+              player2="Player O"
               win1={score1}
               win2={score2}
             />

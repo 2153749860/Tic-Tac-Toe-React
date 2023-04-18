@@ -44,9 +44,25 @@ export default function Game({ updateScore }) {
 
   return (
     <div className="game-container">
-      <Row style={{ minHeight: "200px", minWidth: "200px" }}>
+      <Row
+        style={{
+          minHeight: "200px",
+          minWidth: "200px",
+          borderRadius: "20px",
+        }}
+      >
         {gameBoard.map((value, index) => (
-          <Col key={index} span={8} style={{ border: "1px solid black" }}>
+          <Col
+            key={index}
+            span={8}
+            style={{
+              border: "1px solid black",
+              borderTopLeftRadius: index === 0 && "20px",
+              borderTopRightRadius: index === 2 && "20px",
+              borderBottomLeftRadius: index === 6 && "20px",
+              borderBottomRightRadius: index === 8 && "20px",
+            }}
+          >
             <Cell
               value={value}
               index={index}
